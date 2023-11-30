@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Aliaser",
+	"Description": "Allows aliases to other assets to be shown in the Content Browser.",
+	"Category": "Editor",
+	"CreatedBy": "AyeTSG",
+	"CreatedByURL": "https://ayetsg.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Aliaser",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ContentBrowserAliasDataSource",
+			"Enabled": true
+		}
+	]
+}

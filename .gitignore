@@ -1,0 +1,17 @@
+# Ignore VS artifacts
+.vs/*
+.vsconfig
+
+# Ignore Rider artifacts
+**/.idea/*
+
+# Ignore engine build artifacts
+**/Intermediate/*
+
+# Ignore engine content artifacts
+**/Saved/*
+**/DerivedDataCache/*
+
+# Ignore binaries
+**/Binaries/*
+**/*.lib
